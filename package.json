@@ -5,13 +5,15 @@
   "license": "MIT",
   "devDependencies": {
     "docz": "^1.0.0-rc.3",
-    "docz-theme-default": "^1.0.0-rc.3"
+    "docz-theme-default": "^1.0.0-rc.3",
+    "prop-types": "^15.7.2"
   },
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
   "scripts": {
-    "docs": "yarn docz dev"
+    "docs": "yarn docz dev",
+    "docs:build": "yarn docz build"
   }
 }
